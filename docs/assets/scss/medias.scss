@@ -1,0 +1,38 @@
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    html {
+        font-size: 80%;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 740px) {
+    html {
+        font-size: 110%;
+    }
+    .button {
+        &:hover {
+            color: #dbbc33;
+        }
+        &__3:hover {
+            color: #fff1b0;
+        }
+        
+        &__4:hover {
+            color: #fff1b0;
+        } 
+    }
+    .paragraph {
+        padding-top: 2rem;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    html {
+        font-size: 140%;
+    }
+}
+@media only screen and (min-width : 2500px) {
+    html {
+        font-size: 215%;
+    }
+}
